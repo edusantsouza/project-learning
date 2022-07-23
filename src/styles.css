@@ -1,0 +1,294 @@
+/*========================== general-1 =====================*/ 
+
+* {
+  font-family: "DM-Sans", sans-serif;
+  font-size: 10px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html {
+  background: #3591c5;
+}
+
+.box {
+  width: 130rem;
+}
+
+/*========================== header-1 =====================*/ 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+ 
+  background: #3591c5;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 0rem 30.15rem ;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo img {
+  width: 13rem;
+  height: 6rem;
+}
+
+.opcoes {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 4rem;
+}
+
+.opcoes ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.opcoes li a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 2rem;
+  color: #000;
+}
+
+.logo a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.opcoes li a:hover {
+  color: white;
+  transition: 0.2s;
+  border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+button {
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: white;
+  background: #000;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #000;
+}
+
+
+/*========================== section-1 =====================*/ 
+.home {
+  padding-top: 18rem;
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-img {
+  width: 50rem;
+  height: 50rem;
+  margin: 0;
+  margin-top: 3rem;
+}
+
+nav .text {
+  font-size: 6.5rem;
+  font-weight: 500;
+  width: 50rem;
+  color: #000;
+  text-shadow: 1px 2px 3px #000;
+  margin: 0 ;
+}
+
+.text span {
+  font-size: 6.5rem;
+  color: yellow;
+}
+
+html::after{
+  content: '';
+  width: 100vw;
+  height: 27.3rem;
+  background: #E1F9FC;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 33rem;
+  z-index: -999;
+}
+
+/*========================== section2 =====================*/ 
+
+.sectiontwo {
+  padding-top: 12rem ;
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.firstparag {
+  display: flex;
+  justify-content: center;
+}
+
+.firstparag p {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  width: 80rem;
+}
+
+/*========================== cards =====================*/ 
+
+.cardsView {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 23rem;
+  height: 36rem;
+  background: #131e30;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 8px #000;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin: 0;
+}
+
+.op2 {
+  position: relative;
+  top: -5rem;
+}
+
+.op1 {
+  position: relative;
+}
+
+.op3 {
+  position: relative;
+}
+
+section .banner {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.cardinfo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.shareicon {
+  margin-left: 2.5rem;
+}
+
+.favicon {
+  margin-left: 0.8rem;
+}
+
+.title p {
+  font-size: 1.3rem;
+  width: 10rem;
+}
+
+section .title {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+section .cardicon {
+  width: 1.8rem;
+  height: 4rem;
+}
+
+.carddate {
+  color: grey;
+  font-weight: 500;
+  line-height: 0.1rem;
+  margin: 0;
+  padding-left: .7rem;
+}
+
+.cardresume {
+  color: white;
+}
+
+.resume {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.shadow {
+  position: absolute;
+  top: 30rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+    );
+  width: 20.5rem;
+  height: 4.8rem;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.shadow p {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 40%;
+}
+
+.text {
+    color: gray;
+    width: 20rem;
+  }
+
+  /*======================= cardexample ===========================*/
+
+  .cardexample{
+    height: 100rem;
+    background-color: #E1F9FC;
+    width: 100vw;
+    margin-top: 2rem;
+
+  }
